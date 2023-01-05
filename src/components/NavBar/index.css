@@ -1,0 +1,39 @@
+/* Write your code here. */
+.navbar {
+  height: 10%;
+  background-color: #ffffff33;
+  color: #ffffff;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-name {
+  font-style: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
+.score-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.score {
+  font-style: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 10px;
+  font-weight: 600;
+}

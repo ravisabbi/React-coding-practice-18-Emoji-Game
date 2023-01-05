@@ -1,0 +1,29 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0 0.5%,
+    #fbc7d4 150%
+  );
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+.emoji-game-body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 90vh;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.emoji-card-container {
+  list-style: none;
+  padding-left: 0px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,82 @@
+/* Write your code here. */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff33;
+  width: 85%;
+  border: 3px solid #ffffff30;
+  border-radius: 25px;
+  margin: auto;
+  padding: 16px;
+}
+.text-score-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+  order: 1;
+}
+.image {
+  width: 150px;
+  height: 200px;
+}
+
+.resetBtn {
+  background-color: #ffce27;
+  border: 0px solid;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-family: 'roboto';
+  font-size: 18px;
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+}
+.image-section-container {
+  display: flex;
+  justify-content: center;
+  order: 0;
+}
+.game-status {
+  font-size: 32px;
+  color: #ffffff;
+}
+.score-label {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.score-point {
+  font-size: 22px;
+  color: #6a59ff;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+  .image {
+    width: 200px;
+    height: 300px;
+  }
+  .text-score-container {
+    order: 0;
+    margin-bottom: 20px;
+  }
+  .image-section-container {
+    order: 1;
+  }
+  .game-status {
+    font-size: 42px;
+  }
+  .score-label {
+    font-size: 30px;
+  }
+  .score-point {
+    font-size: 33px;
+  }
+}
